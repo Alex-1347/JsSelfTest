@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    https://stackoverflow.com/questions/14267781/sorting-html-table-with-javascript
+    <br>
+    <table>
+        <tr>
+            <th>Fruits</th>
+            <th>Date</th>
+            <th>Size</th>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>2001-01-01</td>
+            <td><i>25</i></td>
+        </tr>
+        <tr>
+            <td><a href=#>Lemon</a></td>
+            <td><i>2005-05-05</i></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><b>Apple</b></td>
+            <td><a href=#>2002-02-02</a></td>
+            <td><b>-17</b></td>
+        </tr>
+        <tr>
+            <td><i>Mango</i></td>
+            <td>2005-04-04</td>
+            <td><a href=#>100</a></td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td></td>
+            <td>-6</td>
+        </tr>
+    </table>
+</body>
+<script>
+    
+    //https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+    //An IIFE (Immediately Invoked Function Expression) is a JavaScript function 
+    //The first is the anonymous function with lexical scope enclosed within the Grouping Operator (). 
+    //The second part creates the immediately invoked function expression () through which the JavaScript engine will directly interpret the function.
+
+    const comparer = (idx, asc)  => (a,b) => (
+         ((v1, v2) => 
+           v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+         )
+         (getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx))
+     );
+    
+    const getCellValue = (tr, idx) => (
+         tr.children[idx].innerText || tr.children[idx].textContent
+    );
+
+    //querySelectorAll - Returns a NodeList containing all matching Element nodes within the node's subtree
+    //Selectors specification https://drafts.csswg.org/selectors/
+
+    document.querySelectorAll('th').forEach(th => {
+        th.setAttribute('o', th.innerText);
+        th.setAttribute('dir', 0)
+        th.addEventListener('click', (() => {
+        const table = th.closest('table');
+        Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
+            .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+            .forEach(tr => table.appendChild(tr));
+        table.querySelectorAll('th').forEach(c =>{c.innerText= c.getAttribute('o')});
+        th.innerText=th.getAttribute('o')+(Number(th.getAttribute('dir'))%2==0?'+':'-');
+        th.setAttribute('dir',Number(th.getAttribute('dir'))+1);
+    }))});
+
+</script>
+
+</html>

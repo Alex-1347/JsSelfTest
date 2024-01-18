@@ -1,0 +1,105 @@
+<!--  
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CookieProxy</title>
+        <script>
+    var docCookies = {
+  getItem: function (sKey) {
+    if (!sKey) { return null; }
+    return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || null;
+  },
+  setItem: function (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
+    if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) { return false; }
+    var sExpires = "";
+    if (vEnd) {
+      switch (vEnd.constructor) {
+        case Number:
+          sExpires = vEnd === Infinity ? "; expires=Fri, 31 Dec 9999 23:59:59 GMT" : "; max-age=" + vEnd;
+          break;
+        case String:
+          sExpires = "; expires=" + vEnd;
+          break;
+        case Date:
+          sExpires = "; expires=" + vEnd.toUTCString();
+          break;
+      }
+    }
+    document.cookie = encodeURIComponent(sKey) + "=" + encodeURIComponent(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "");
+    return true;
+  },
+  removeItem: function (sKey, sPath, sDomain) {
+    if (!this.hasItem(sKey)) { return false; }
+    document.cookie = encodeURIComponent(sKey) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "");
+    return true;
+  },
+  hasItem: function (sKey) {
+    if (!sKey) { return false; }
+    return (new RegExp("(?:^|;\\s*)" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=")).test(document.cookie);
+  },
+  keys: function () {
+    var aKeys = document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g, "").split(/\s*(?:\=[^;]*)?;\s*/);
+    for (var nLen = aKeys.length, nIdx = 0; nIdx < nLen; nIdx++) { aKeys[nIdx] = decodeURIComponent(aKeys[nIdx]); }
+    return aKeys;
+  }
+};
+</script>
+<script>
+    const docCookiesProxy = new Proxy(docCookies, {
+  get(target, key) {
+    return target[key] ?? target.getItem(key) ?? undefined;
+  },
+  set(target, key, value) {
+    if (key in target) {
+      return false;
+    }
+    return target.setItem(key, value);
+  },
+  deleteProperty(target, key) {
+    if (!(key in target)) {
+      return false;
+    }
+    return target.removeItem(key);
+  },
+  ownKeys(target) {
+    return target.keys();
+  },
+  has(target, key) {
+    return key in target || target.hasItem(key);
+  },
+  defineProperty(target, key, descriptor) {
+    if (descriptor && "value" in descriptor) {
+      target.setItem(key, descriptor.value);
+    }
+    return target;
+  },
+  getOwnPropertyDescriptor(target, key) {
+    const value = target.getItem(key);
+    return value
+      ? {
+          value,
+          writable: true,
+          enumerable: true,
+          configurable: false,
+        }
+      : undefined;
+  },
+});
+</script>
+<script>
+console.log((docCookiesProxy.myCookie1 = "First value"));
+console.log(docCookiesProxy.getItem("myCookie1"));
+docCookiesProxy.setItem("myCookie1", "Changed value");
+console.log(docCookiesProxy.myCookie1);
+console.log(docCookies.keys())
+</script>
+    </head>
+    <body>
+
+    </body>
+</html>

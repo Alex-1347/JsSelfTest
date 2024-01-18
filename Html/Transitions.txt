@@ -1,0 +1,2 @@
+https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API
+https://mdn.github.io/dom-examples/view-transitions/#

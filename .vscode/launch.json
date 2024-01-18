@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Launch firefox against localhost",
+            "url": "/home/admin/AngularProjects/JS/Basic/NullishAndChaining.js",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "node",
+            "name": "Run Current File",
+            "request": "launch",
+            "program": "${workspaceFolder}/Iterator/ForOf.js"
+        }
+    ]
+}

@@ -1,0 +1,860 @@
+Array/Array.js:10://--- (2) removes the last element from an array
+Array/Array.js:103://--- (14) slices out a piece of an array into a new array.
+Array/Array.js:105:--- (Ar#14) ---`)
+Array/Array.js:113://--- (15) toString()
+Array/Array.js:115:--- (Ar#15) ---`)
+Array/Array.js:119://--- (16) sort
+Array/Array.js:121:--- (Ar#16) ---`)
+Array/Array.js:126://--- (17) New
+Array/Array.js:128:--- (Ar#17) ---`)
+Array/Array.js:12:--- (Ar#2) ---`)
+Array/Array.js:133://--- (18) Arrays are a special type of objects
+Array/Array.js:135:--- (Ar#18) ---`)
+Array/Array.js:139://--- (19) foreach
+Array/Array.js:141:--- (Ar#19) ---`)
+Array/Array.js:147://--- (20) map  
+Array/Array.js:149:--- (Ar#20) ---`)
+Array/Array.js:155://--- (21) keys
+Array/Array.js:157:--- (Ar#21) ---`)
+Array/Array.js:162://--- (22) iteration for keys
+Array/Array.js:164:--- (Ar#22) ---`)
+Array/Array.js:172:--- (Ar#23) ---`)
+Array/Array.js:180://--- (24) Transforming a Javascript iterable into an array
+Array/Array.js:182:--- (Ar#24) ---`)
+Array/Array.js:18://---  (3) adds a new element at the end of array
+Array/Array.js:189://--- (25) implicit string converstion
+Array/Array.js:191:--- (Ar#25) ---`)
+Array/Array.js:195://--- (26) changing each array item
+Array/Array.js:197:--- (Ar#26) ---`)
+Array/Array.js:205://--- (27) Array methods are always generic 
+Array/Array.js:207:--- (Ar#27) ---`)
+Array/Array.js:20:--- (Ar#3) ---`)
+Array/Array.js:216://--- (28) length property, length always ends as an integer
+Array/Array.js:218:--- (Ar#28) ---`)
+Array/Array.js:226://--- (29) Create a string from an array
+Array/Array.js:228:--- (Ar#29) ---`)
+Array/Array.js:232://--- (30) Find the index of an item in an array
+Array/Array.js:234:--- (Ar#30) ---`)
+Array/Array.js:240:--- (Ar#31) ---`)
+Array/Array.js:245://--- (32) Remove multiple items from the end of an array
+Array/Array.js:247:--- (Ar#32) ---`)
+Array/Array.js:254://--- (33) Truncate an array down to just its first N items
+Array/Array.js:25://--- (4) removes the first array element
+Array/Array.js:256:--- (Ar#33) ---`)
+Array/Array.js:262://--- (34) Remove the first item from an array
+Array/Array.js:264:--- (Ar#34) ---`)
+Array/Array.js:270://--- (35)  Remove multiple items from the beginning of an array
+Array/Array.js:272:--- (Ar#35) ---`)
+Array/Array.js:27:--- (Ar#4) ---`)
+Array/Array.js:280://--- (36) Add a new first item to an array
+Array/Array.js:282:--- (Ar#36) ---`)
+Array/Array.js:287://--- (37) concat
+Array/Array.js:289:--- (Ar#37) ---`)
+Array/Array.js:294://--- (38) jagged 
+Array/Array.js:296:--- (Ar#38) ---`)
+Array/Array.js:304://--- (39) three way copy
+Array/Array.js:306:--- (Ar#39) ---`)
+Array/Array.js:316://--- (40) deep copy
+Array/Array.js:318:--- (Ar#40) ---`)
+Array/Array.js:3://--- (1) length
+Array/Array.js:322://--- (41) print two-dimensional array
+Array/Array.js:324:--- (Ar#41) ---`)
+Array/Array.js:32://--- (5) adds a new element at the beginning of array
+Array/Array.js:343://--- (42) Sparse array https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections#sparse_arrays
+Array/Array.js:345:--- (Ar#42) ---`)
+Array/Array.js:34:--- (Ar#5) ---`)
+Array/Array.js:367://--- (43) forEach.call https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections#working_with_array-like_objects
+Array/Array.js:369:--- (Ar#43) ---`)
+Array/Array.js:385:--- (Ar#44) ---`)
+Array/Array.js:39://--- (6) Changing Elements
+Array/Array.js:41:--- (Ar#6) ---`)
+Array/Array.js:46://--- (7) changing from iterating
+Array/Array.js:48:--- (Ar#7) ---`)
+Array/Array.js:54://--- (8) make element undefined
+Array/Array.js:56:--- (Ar#8) ----`)
+Array/Array.js:5:--- (Ar#1) ---`)
+Array/Array.js:64://--- (9) concat array
+Array/Array.js:66:--- (Ar#9) ---`)
+Array/Array.js:72://--- (10) Merging an Array with Values
+Array/Array.js:74:--- (Ar#10) ---`)
+Array/Array.js:79://--- (11) Flattening an array is the process of reducing the dimensionality of an array
+Array/Array.js:81:--- (Ar#11) --- `)
+Array/Array.js:89://--- (12) used to add new items, The first parameter (2) defines the position where new elements should be added, The second parameter (0) defines how many elements should be removed.
+Array/Array.js:91:--- (Ar#12) ---`)
+Array/Array.js:96://--- (13) Using splice() to Remove Elements
+Array/Array.js:98:--- (Ar#13) ---`)
+Array/ArrayLoop.js:101://--- (10) Create a true array
+Array/ArrayLoop.js:103:--- (Al#10) ---`)
+Array/ArrayLoop.js:108://--- (11) Use spread syntax (...)
+Array/ArrayLoop.js:110:--- (Al#11) ---`)
+Array/ArrayLoop.js:115://--- (12) Use the slice method of arrays
+Array/ArrayLoop.js:117:--- (Al#12) ---`)
+Array/ArrayLoop.js:15:--- (Al#2) ---`)
+Array/ArrayLoop.js:23:--- (Al#3) ---`)
+Array/ArrayLoop.js:31:--- (Al#4) ---`)
+Array/ArrayLoop.js:51:--- (Al#5) ---`)
+Array/ArrayLoop.js:61:--- (Al#6) ---`)
+Array/ArrayLoop.js:67://--- (7) array-like objects 
+Array/ArrayLoop.js:69:--- (Al#7) ---`)
+Array/ArrayLoop.js:7:--- (Al#1) ---`)
+Array/ArrayLoop.js:84://--- (8) use for-of with host-provided array-like objects 
+Array/ArrayLoop.js:86:--- (Al#8) ---`)
+Array/ArrayLoop.js:93://--- (9) use Array.prototype functions with host-provided array-like objects 
+Array/ArrayLoop.js:95:--- (Al#9) ---`)
+Array/ArrayTyped.js:101://--- (5) TextDecoder
+Array/ArrayTyped.js:103:--- (At#5) ---`);
+Array/ArrayTyped.js:108://--- (6) FromCharCode
+Array/ArrayTyped.js:110:--- (At#6) ---`);
+Array/ArrayTyped.js:114://--- (7) Conversion to normal arrays
+Array/ArrayTyped.js:116:--- (At#7) ---`);
+Array/ArrayTyped.js:122://--- (8) DataView method (+ArrayBuffer and Array.From)
+Array/ArrayTyped.js:124:--- (At#8) ---`);
+Array/ArrayTyped.js:19://--- (1) Different way to create Int9Array https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array
+Array/ArrayTyped.js:21:--- (At#1) ---`);
+Array/ArrayTyped.js:53://--- (2) example to access data 
+Array/ArrayTyped.js:55:--- (At#2) ---`)
+Array/ArrayTyped.js:65://--- (3) set up Array and access to it as octet
+Array/ArrayTyped.js:67:--- (At#3) ---`);
+Array/ArrayTyped.js:80://--- (4) Multiple views on the same data
+Array/ArrayTyped.js:82:--- (At#4) ---`);
+Async/AsyncCallback.js:17://--- (2) serius of callback 
+Async/AsyncCallback.js:21:--- (Ac#2) ---`)
+Async/AsyncCallback.js:3://--- (1) calback stack
+Async/AsyncCallback.js:5:--- (Ac#1) ---`)
+Async/AsyncFunctionAsterisk.js:26: --- (Aa#2) ---`);
+Async/AsyncFunctionAsterisk.js:4: --- (Aa#1) ---`);
+Async/AsyncFunction.js:109:--- (Af#3) ---`);
+Async/AsyncFunction.js:18: --- (Af#2) ---`);
+Async/AsyncFunction.js:4:--- (Af#1) ---`);
+Async/Async.js:18://--- (2) any Asyc function return Promise,
+Async/Async.js:20:--- (As#2) ---`)
+Async/Async.js:24://--- (3) uwait result with then
+Async/Async.js:26:--- (As#3) ---`)
+Async/Async.js:30://--- (4) top-level await wit IIFE https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+Async/Async.js:3://--- (1) it async function return simple value, that value will wrap to Promise
+Async/Async.js:32:--- (As#4) ---`);
+Async/Async.js:38://--- (5) parallel executing
+Async/Async.js:40:--- (As#5) ---`);
+Async/Async.js:6:--- (As#1) ---`)
+Async/Await.js:21://--- (2) Thenables
+Async/Await.js:24:--- (Aw#2) ---`);
+Async/Await.js:3://--- (1) The for await...of statement creates a loop iterating over async iterable objects as well as sync iterables. 
+Async/Await.js:42://--- (3) Awaiting a promise to be fulfilled
+Async/Await.js:44:--- (Aw#3) ---`)
+Async/Await.js:5:--- (Aw#1) ---`);
+Async/Await.js:61://--- (4) Thenable objects are resolved just the same as actual Promise objects.
+Async/Await.js:63:--- (Aw#4) ---`)
+Async/Await.js:76://--- (5) Thenable objects can also be rejected:
+Async/Await.js:78:--- (Aw#5) ---`)
+Async/Await.js:91://--- (6) demonstrate how the microtask queue is processed when each await expression is encountered.
+Async/Await.js:93:--- (Aw#6) ---`)
+Async/Fetch.js:17://--- (2) Async/Await fitch
+Async/Fetch.js:20:--- (Ft#2) ---`);
+Async/Fetch.js:31://--- (3) async IIFE https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+Async/Fetch.js:33:--- (Ft#3) ---`);
+Async/Fetch.js:4://--- (1) simple fetch with JSON
+Async/Fetch.js:42:--- (Ft#4) ---`);
+Async/Fetch.js:47://--- (4) error handle http://blog.niftysnippets.org/2018/06/common-fetch-errors.html
+Async/Fetch.js:6:--- (Ft#1) ---`)
+Async/ForAwaitOf.js:35:--- (Ao#2) ---`);
+Async/ForAwaitOf.js:52:--- (Ao#3) ---`);
+Async/ForAwaitOf.js:6:--- (Ao#1) ---`);
+Async/ForAwaitOf.js:75:--- (Ao#4) ---`);
+Async/PromiseAsPrm.js:17:--- (Pm#2) ---`);
+Async/PromiseAsPrm.js:25:--- (Pm#3) ---`);
+Async/PromiseAsPrm.js:3:--- (Pm#1) ---`);
+Async/PromiseChain.js:1://--- (1) Promise onFulfill and onReject functions
+Async/PromiseChain.js:24://--- (2) capture error in next chian
+Async/PromiseChain.js:26:--- (Ph#2) ---`)
+Async/PromiseChain.js:3:--- (Ph#1) ---`)
+Async/PromiseChain.js:43://--- (3) pass Error to second chain
+Async/PromiseChain.js:45:--- (Ph#3) ---`)
+Async/PromiseChain.js:62://--- (4) pass promise to second chain
+Async/PromiseChain.js:64:--- (Ph#4) ---`)
+Async/PromiseChain.js:81://--- (5) pass wrong promise with error to second chain        
+Async/PromiseChain.js:83:--- (Ph#5) ---`)
+Async/Promise.js:1://--- (1) fist call executor function creates finalstate
+Async/Promise.js:17://--- (2) correct syntax
+Async/Promise.js:19:--- (Pm#2) ---`)
+Async/Promise.js:30://--- (3) min access to Promise result from onFulfilled function
+Async/Promise.js:32:--- (Pm#3) ---`)
+Async/Promise.js:38://--- (4) and onRejected
+Async/Promise.js:3:--- (Pm#1) ---`)
+Async/Promise.js:40:--- (Pm#4) ---`)
+Async/PromiseLocalFS.js:12://--- (2) wrap synchronous reading to promise task 
+Async/PromiseLocalFS.js:15:--- (Lf#2) ---`)
+Async/PromiseLocalFS.js:31://--- (3) standard asynchronous reading 
+Async/PromiseLocalFS.js:3://--- (1) synchronous reading node specific
+Async/PromiseLocalFS.js:34:--- (Lf#3) ---`)
+Async/PromiseLocalFS.js:6:--- (Lf#1) ---`)
+Async/PromiseWaitAll.js:1://--- (1) setTimeut return Promise
+Async/PromiseWaitAll.js:24://--- (2) working even simple value instead Promise  
+Async/PromiseWaitAll.js:26:--- (Pw#2) ---`);
+Async/PromiseWaitAll.js:31://--- (3) handle reject
+Async/PromiseWaitAll.js:33:--- (Pw#3) ---`);
+Async/PromiseWaitAll.js:3:--- (Pw#1) ---`);
+Async/PromiseWaitAll.js:45://--- (4) unhaddled rejection  
+Async/PromiseWaitAll.js:47:--- (Pw#4) ---`);
+Async/PromiseWaitAll.js:52://--- (5) imediate rejection 
+Async/PromiseWaitAll.js:60://--- (6) continue on PromiseWaitAny
+Async/PromiseWaitAny.js:3:--- (Pa#1) ---`);
+Async/SyncCallback.js:4:--- (Sc#1) ---`);
+Async/Timeout.js:5:--- (Tt#1) ---`)
+Basic/ArrowFunction.js:122:--- (Fa#8) ---`)
+Basic/ArrowFunction.js:144:--- (Fa#9) ---`)
+Basic/ArrowFunction.js:26:--- (Fa#2) ---`)
+Basic/ArrowFunction.js:40:--- (Fa#3) ---`)
+Basic/ArrowFunction.js:58:--- (Fa#4) ---`)
+Basic/ArrowFunction.js:5:--- (Fa#1) ---`)
+Basic/ArrowFunction.js:75:--- (Fa#5) ---`)
+Basic/ArrowFunction.js:86:--- (Fa#6) ---`)
+Basic/ArrowFunction.js:99:--- (Fa#7) ---`)
+Basic/Clone.js:120:--- (Cl#7) ---`)
+Basic/Clone.js:132:--- (Cl#8) ---`)
+Basic/Clone.js:21:--- (Cl#2) ---`)
+Basic/Clone.js:37:--- (Cl#3) ---`)
+Basic/Clone.js:49:--- (Cl#4) ---`)
+Basic/Clone.js:4:--- (Cl#1) ---`)
+Basic/Clone.js:78:--- (Cl#5) ---`)
+Basic/Clone.js:92:--- (Cl#6) ---`)
+Basic/Compare.js:28://--- (2) bigint primitive 0n
+Basic/Compare.js:30:--- (Cm#2) ---`)
+Basic/Compare.js:42://--- (3) This use case demonstrates an instance of the Liskov substitution principle https://en.wikipedia.org/wiki/Liskov_substitution_principle
+Basic/Compare.js:44:--- (Cm#3) ---`)
+Basic/Compare.js:5:--- (Cm#1) ---`)
+Basic/Compare.js:62://--- (4) Similar to same-value equality, but +0 and -0 are considered equal.
+Basic/Compare.js:64:--- (Cm#4) ---`)
+Basic/Compare.js:76://--- (5) Object.is() and NaN
+Basic/Compare.js:78:--- (Cm#5) ---`)
+Basic/Delete.js:29://--- (2) delete global this (don't working in strict mode) htps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete#deleting_global_properties
+Basic/Delete.js:3://--- (1) delete and the prototype chain
+Basic/Delete.js:31:--- (Dl#2) ---`);
+Basic/Delete.js:5:--- (Dl#1) ---`);
+Basic/DestructuringAssignment.js:111:--- (Da#7) ---`);
+Basic/DestructuringAssignment.js:12:--- (Da#2) ---`);
+Basic/DestructuringAssignment.js:131:--- (Da#8) ---`);
+Basic/DestructuringAssignment.js:161:--- (Da#9) ---`);
+Basic/DestructuringAssignment.js:198:--- (Da#10) ---`);
+Basic/DestructuringAssignment.js:21:--- (Da#3) ---`);
+Basic/DestructuringAssignment.js:5:--- (Da#1) ---`);
+Basic/DestructuringAssignment.js:73:--- (Da#4) ---`);
+Basic/DestructuringAssignment.js:81:--- (Da#5) ---`);
+Basic/DestructuringAssignment.js:89:--- (Da#6) ---`);
+Basic/Eval.js:108:--- (Ev#8) ---`)
+Basic/Eval.js:117:--- (Ev#9) ---`)
+Basic/Eval.js:126: --- (Ev#10) ---`)
+Basic/Eval.js:141:--- (Ev#11) ---`)
+Basic/Eval.js:163:--- (Ev#12) ---`)
+Basic/Eval.js:185:--- (Ev#13) ---`)
+Basic/Eval.js:206:--- (Ev#14) ---`)
+Basic/Eval.js:20:--- (Ev#2) ---`)
+Basic/Eval.js:221:--- (Ev#15) ---`)
+Basic/Eval.js:36:--- (Ev#3) ---`)
+Basic/Eval.js:52:--- (Ev#4) ---`)
+Basic/Eval.js:67:--- (Ev#5) ---`)
+Basic/Eval.js:75:--- (Ev#6) ---`)
+Basic/Eval.js:7:--- (Ev#1) ---`)
+Basic/Eval.js:93:--- (Ev#7) ---`)
+Basic/Function.js:109://--- (11) pass obj as parameters
+Basic/Function.js:111:--- (Fu#11) ---`);
+Basic/Function.js:11://--- (2) Declaration
+Basic/Function.js:116://--- (12) number of parameters
+Basic/Function.js:118:--- (Fu#12) ---`);
+Basic/Function.js:131:--- (Fu#13) ---`);
+Basic/Function.js:136://--- (14) callback function on map
+Basic/Function.js:138:--- (Fu#14) ---`);
+Basic/Function.js:13:--- (Fu#2) ---`);
+Basic/Function.js:143://--- (15) Function Borrowing https://www.w3schools.com/JS/js_function_bind.asp
+Basic/Function.js:146:--- (Fu#15) ---`);
+Basic/Function.js:171://--- (16) Call() //https://www.w3schools.com/JS/js_function_call.asp
+Basic/Function.js:173:--- (Fu#16) ---`);
+Basic/Function.js:177://--- (17) Call with parameters
+Basic/Function.js:179:--- (Fu#17) ---`);
+Basic/Function.js:189://--- (18) apply()
+Basic/Function.js:193:--- (Fu#18) ---`);
+Basic/Function.js:197://--- (19) apply can used for calculate Max Method on Arrays
+Basic/Function.js:199:--- (Fu#19) ---`);
+Basic/Function.js:20://--- (3) Function expressions; the function is anonymous but assigned to a variable
+Basic/Function.js:208:--- (Fu#20) ---`);
+Basic/Function.js:218://--- (21) closure on self-invoking functions (arrow function working in global context)
+Basic/Function.js:220:--- (Fu#21) ---`);
+Basic/Function.js:22:--- (Fu#3) ---`);
+Basic/Function.js:230://--- (22) This point to global context in arrow function
+Basic/Function.js:232:--- (Fu#22) ---`);
+Basic/Function.js:243://--- (23) Using call() and apply(), you can pass the value of this as if it's an explicit parameter.
+Basic/Function.js:246:--- (Fu#23) ---`);
+Basic/Function.js:263://--- (24) f.bind(someObject) creates a new function with the same body and scope as f,
+Basic/Function.js:265:--- (Fu#24) ---`);
+Basic/Function.js:280://--- (25) arrow
+Basic/Function.js:282:--- (Fu#25) ---`);
+Basic/Function.js:29://--- (4) Expression; the function has its own name
+Basic/Function.js:297://--- (26) function can apply to any array elements
+Basic/Function.js:299:--- (Fu#26) ---`);
+Basic/Function.js:314://--- (27) Nested functions and closures
+Basic/Function.js:316:--- (Fu#27) ---`);
+Basic/Function.js:31:--- (Fu#4) ---`);
+Basic/Function.js:330://--- (28) Name conflict in Closure
+Basic/Function.js:332:--- (Fu#28) ---`);
+Basic/Function.js:344://--- (29)  array-like object, but this is not array!
+Basic/Function.js:346:--- (Fu#29) ---`);
+Basic/Function.js:358://--- (30) Rest parameters
+Basic/Function.js:360:--- (Fu#30) ---`);
+Basic/Function.js:369://--- (31) Named function expression
+Basic/Function.js:371:--- (Fu#31) ---`);
+Basic/Function.js:38://--- (5) Arrow function
+Basic/Function.js:40:--- (Fu#5) ---`);
+Basic/Function.js:4://--- (1) Constructor
+Basic/Function.js:45://--- (6) define Method and Get/Set function in object
+Basic/Function.js:47:--- (Fu#6) ---`);
+Basic/Function.js:65://--- (7) IIFE (Immediately Invoked Function Expression)
+Basic/Function.js:68:--- (Fu#7) ---`);;
+Basic/Function.js:6:--- (Fu#1) ---`);
+Basic/Function.js:75://--- (8) the same with arrow
+Basic/Function.js:77:--- (Fu#8) ---`);
+Basic/Function.js:84://--- (9) Async see order
+Basic/Function.js:86:--- (Fu#9) ---`);
+Basic/Function.js:93://--- (10) Object, Default and Array as parameters with Spread syntax
+Basic/Function.js:95:--- (Fu#10) ---`);
+Basic/In.js:18://---  (2) In on array used as property (index or other)
+Basic/In.js:20:--- (In#2) ---`)
+Basic/In.js:30://--- (3) Using the in operator with deleted or undefined properties
+Basic/In.js:3://--- (1)  The in operator returns true if the specified property is in the specified object or its prototype chain
+Basic/In.js:32:--- (In#3) ---`)
+Basic/In.js:41://--- (4) If you set a property to undefined but do not delete it, the in operator returns true for that property.
+Basic/In.js:43:--- (In#4) ---`)
+Basic/In.js:48://--- (5) Inherited properties object - hasOwn
+Basic/In.js:50:--- (In#5) ---`)
+Basic/In.js:5:--- (In#1) ---`)
+Basic/In.js:60://--- (6) Using the in operator to implement branded checks
+Basic/In.js:62:--- (In#6) ---`)
+Basic/In.js:86://--- (7) You can also implement this as a @@hasInstance method of the class, so that you can use the instanceof operator to perform the same check
+Basic/In.js:88:--- (In#7) ---`)
+Basic/NullishAndChaining.js:18:--- (Nc#2) ---`)
+Basic/NullishAndChaining.js:33://--- (3) Optional chaining
+Basic/NullishAndChaining.js:36:--- (Nc#3) ---`)
+Basic/NullishAndChaining.js:52:--- (Nc#4) ---`)
+Basic/NullishAndChaining.js:5:--- (Nc#1) ---`)
+Basic/NullishAndChaining.js:67:--- (Nc#5) ---`)
+Basic/Object.js:105://--- (5) but this working correctly
+Basic/Object.js:107:--- (Ob#5) ---`)
+Basic/Object.js:117://--- (6) Making your object not inherit from Object.prototype also prevents prototype pollution attacks. 
+Basic/Object.js:119:--- (Ob#6) ---`)
+Basic/Object.js:131://--- (7) Constructing empty objects
+Basic/Object.js:133:--- (Ob#7) ---`)
+Basic/Object.js:139://--- (8) create Boolean objects
+Basic/Object.js:141:--- (Ob#8) ---`)
+Basic/Object.js:146://--- (9) Modifying the object prototype property 
+Basic/Object.js:148:--- (Ob#9) ---`)
+Basic/Object.js:166://--- (10) get keys and value
+Basic/Object.js:168:--- (Ob#10) ---`)
+Basic/Object.js:182://--- (11) JSON Indented format
+Basic/Object.js:184:--- (Ob#11) ---`)
+Basic/Object.js:208://--- (12) Detecting an undefined object property
+Basic/Object.js:210:--- (Ob#12) ---`)
+Basic/Object.js:218://--- (13) object methods
+Basic/Object.js:221:--- (Ob#13) ---`)
+Basic/Object.js:22:--- (Ob#2) ---`)
+Basic/Object.js:260://--- (14) protection object
+Basic/Object.js:263:--- (Ob#14) ---`)
+Basic/Object.js:4:--- (Ob#1) ---`)
+Basic/Object.js:52://--- (2) create object from NULL prototype
+Basic/Object.js:54:--- (Ob#3) ---`)
+Basic/Object.js:88://--- (4) creating from NULL prototype can be interesting, this function working wrong
+Basic/Object.js:90:--- (Ob#4) ---`)
+Basic/PredefinedFunctions.js:117:--- (Pf#5) ---`)
+Basic/PredefinedFunctions.js:135:--- (Pf#6) ---`)
+Basic/PredefinedFunctions.js:25:--- (Pf#2) ---`)
+Basic/PredefinedFunctions.js:54:--- (Pf#3) ---`)
+Basic/PredefinedFunctions.js:5:--- (Pf#1) ---`)
+Basic/PredefinedFunctions.js:66:--- (Pf#4) ---`)
+Basic/Property.js:18:--- (Pr#2) ---`)
+Basic/Property.js:28:--- (Pr#3) ---`)
+Basic/Property.js:4:--- (Pr#1) ---`)
+Basic/StrictModeOff.js:10://--- (2) This, Only for demonstration — you should not mutate built-in prototypes
+Basic/StrictModeOff.js:103://--- (11) eval, arguments, implements, interface, let, package, private, protected, public, static, yield -  can not use as identifier in strict mode
+Basic/StrictModeOff.js:105:--- (Sm#11) ---`)
+Basic/StrictModeOff.js:110://--- (12) The with statement is not allowed in strict mode
+Basic/StrictModeOff.js:112:--- (Sm#12) ---`)
+Basic/StrictModeOff.js:117://--- (13) variable can not be used before it is declared in strict mode
+Basic/StrictModeOff.js:119:--- (Sm#13) ---`)
+Basic/StrictModeOff.js:124://--- (14) eval() can not declare a variable in strict mode
+Basic/StrictModeOff.js:126:--- (Sm#14) ---`)
+Basic/StrictModeOff.js:12:--- (Sm#2) ---`)
+Basic/StrictModeOff.js:23://--- (3) compare with This.js - currently false, woth strint mode all of that return true
+Basic/StrictModeOff.js:25:--- (Sm#3) ---`)
+Basic/StrictModeOff.js:36://--- (4) function local scope (only the code inside the function is in strict mode):
+Basic/StrictModeOff.js:38: --- (Sm#4) ---`)
+Basic/StrictModeOff.js:52://--- (5) Deleting a variable (or object) is not allowed in strict mode
+Basic/StrictModeOff.js:54:--- (Sm#5) ---`)
+Basic/StrictModeOff.js:5:--- (Sm#1) ---`)
+Basic/StrictModeOff.js:64://--- (6) Octal numeric literals are not allowed in strict mode
+Basic/StrictModeOff.js:66:--- (Sm#6) ---`)
+Basic/StrictModeOff.js:71://--- (7) Octal escape characters are not allowed in strict mode
+Basic/StrictModeOff.js:73:--- (Sm#7) ---`)
+Basic/StrictModeOff.js:78://--- (8) Writing to a read-only property is not allowed in strict mode
+Basic/StrictModeOff.js:80:--- (Sm#8) ---`)
+Basic/StrictModeOff.js:87://--- (9) get-only property is not allowed in strict mode
+Basic/StrictModeOff.js:89:--- (Sm#9) ---`)
+Basic/StrictModeOff.js:95://--- (10) Deleting an undeletable property is not allowed in strict mode
+Basic/StrictModeOff.js:97:--- (Sm#10) ---`)
+ControlFlow/DoWhile.js:13: --- (Dw#2) ---`);
+ControlFlow/DoWhile.js:24:--- (Dw#3) ---`);
+ControlFlow/DoWhile.js:4:--- (Dw#1) ---`);
+ControlFlow/Goto.js:4:--- (Gt#1) ---`);
+ControlFlow/Other.js:17:--- (Ot#2) ---`);
+ControlFlow/Other.js:29:--- (Ot#3) ---`);
+ControlFlow/Other.js:4:--- (Ot#1) ---`);
+DataTypes/Map.js:15://--- (2) create function and function call more readable
+DataTypes/Map.js:17:--- (Mp#2) ---`)
+DataTypes/Map.js:25://--- (3) converting string to array
+DataTypes/Map.js:27:--- (Mp#3) ---`)
+DataTypes/Map.js:3://--- (1) The Map object holds key-value pairs and remembers the original insertion order of the keys.
+DataTypes/Map.js:38://--- (4) can transformed to Array
+DataTypes/Map.js:40:--- (Mp#4) ---`)
+DataTypes/Map.js:46://--- (5) Reformatting Array Objects
+DataTypes/Map.js:48:--- (Mp#5) ---`)
+DataTypes/Map.js:5:--- (Mp#1) ---`)
+DataTypes/RegExp.js:19:--- (Rg#2) ---`)
+DataTypes/RegExp.js:4://--- (1) Matching duplicate words
+DataTypes/RegExp.js:6:--- (Rg#1) ---`)
+DataTypes/Symbol.js:14://--- (2) Symbol wrapper object,
+DataTypes/Symbol.js:16:--- (Sm#2) ---`)
+DataTypes/Symbol.js:23://--- (3) Symbol.for(tokenString) takes a string key and returns a symbol value from the registry, while Symbol.keyFor(symbolValue) takes a symbol value and returns the string key corresponding to it.
+DataTypes/Symbol.js:25:--- (Sm#3) ---`)
+DataTypes/Symbol.js:29://--- (4) typeof operator with Symbols
+DataTypes/Symbol.js:31:--- (Sm#4) ---`)
+DataTypes/Symbol.js:37://--- (5) Symbols and for...in iteration
+DataTypes/Symbol.js:39:--- (Sm#5) ---`)
+DataTypes/Symbol.js:4://--- (1) Every Symbol() call is guaranteed to return a unique Symbol.
+DataTypes/Symbol.js:52://--- (6) Symbols and JSON.stringify()
+DataTypes/Symbol.js:54:--- (Sm#6) ---`)
+DataTypes/Symbol.js:58://--- (7) Symbol wrapper objects as property keys
+DataTypes/Symbol.js:60:--- (Sm#7) ---`)
+DataTypes/Symbol.js:6:--- (Sm#1) ---`)
+FindText:2:grep -Rnw '' --exclude-dir=node_modules --exclude-dir=.git -e '--- '
+Html/CustomControl.html:131:// -------------------- //
+Html/CustomControl.html:133:// -------------------- //
+Html/CustomControl.html:167:// ------------- //
+Html/CustomControl.html:169:// ------------- //
+Html/CustomControl.html:19:/* --------------- */
+Html/CustomControl.html:21:/* --------------- */
+Html/CustomControl.html:45:/* ------------ */
+Html/CustomControl.html:47:/* ------------ */
+Html/globalContext-Chrome.txt:1097:--- (3)	---
+Html/GlobalContext-Chrome.txt:1097:--- (3) ---
+Html/globalContext-Chrome.txt:1:--- (1)	---
+Html/GlobalContext-Chrome.txt:1:--- (1) ---
+Html/globalContext-Chrome.txt:1111:--- (4)	---
+Html/GlobalContext-Chrome.txt:1111:--- (4) ---
+Html/globalContext-Chrome.txt:872:--- (2)	---
+Html/GlobalContext-Chrome.txt:872:--- (2) ---
+Html/globalContext-Firefox.txt:1:--- (1) ---
+Html/GlobalContext-Firefox.txt:1:--- (1) ---
+Html/globalContext-Firefox.txt:590:--- (2) ---
+Html/GlobalContext-Firefox.txt:590:--- (2) ---
+Html/globalContext-Firefox.txt:801:--- (3) ---
+Html/GlobalContext-Firefox.txt:801:--- (3) --- 
+Html/globalContext-Firefox.txt:815:--- (4) ---
+Html/GlobalContext-Firefox.txt:815:    --- (4) --- 
+Html/globalContext-Node.txt:1:--- (1) ---
+Html/GlobalContext-Node.txt:1:--- (1) ---
+Html/globalContext-Node.txt:79:--- (2) ---
+Html/GlobalContext-Node.txt:81:--- (2) ---
+Html/globalContext-Node.txt:90:--- (3) ---
+Html/GlobalContext-Node.txt:92:--- (3) ---
+Html/Global.html:101:    --- (Gl#3) ---`)
+Html/Global.html:107:    --- (Gl#4) ---`)
+Html/Global.html:89:    --- (Gl#1) ---`)
+Html/Global.html:95:    --- (Gl#2) ---`)
+Iterator/For.Injs:17:--- (Fr#2) ---`);
+Iterator/For.Injs:37:--- (Fr#3) ---`);
+Iterator/For.Injs:54:--- (Fr#4) ---`);
+Iterator/For.Injs:74:--- (Fr#5) ---`);
+Iterator/For.Injs:7:--- (Fr#1) ---`);
+Iterator/For.Injs:88:--- (Fr#6) ---`);
+Iterator/ForOf.js:104:--- (Ff#8) ---`);
+Iterator/ForOf.js:126:--- (Ff#9) ---`);
+Iterator/ForOf.js:143:--- (Ff#10) ---`);
+Iterator/ForOf.js:166:--- (Ff#11) ---`);
+Iterator/ForOf.js:16:--- (Ff#2) ---`);
+Iterator/ForOf.js:182:--- (Ff#12) ---`);
+Iterator/ForOf.js:213:--- (Ff#13) ---`);
+Iterator/ForOf.js:25:--- (Ff#3) ---`);
+Iterator/ForOf.js:35:--- (Ff#4) ---`);
+Iterator/ForOf.js:52:--- (Ff#5) ---`);
+Iterator/ForOf.js:62:--- (Ff#6) ---`);
+Iterator/ForOf.js:6:--- (Ff#1) ---`);
+Iterator/ForOf.js:74:--- (Ff#7) ---`);
+Iterator/Iterator.js:112://--- (10) array, map
+Iterator/Iterator.js:114:--- (It#10) ---`)
+Iterator/Iterator.js:120://--- (11) for
+Iterator/Iterator.js:122:--- (It#11) ---`)
+Iterator/Iterator.js:128://--- (12) Iterators are stateful 
+Iterator/Iterator.js:130:--- (It#12) ---`)
+Iterator/Iterator.js:154://--- (13) Defining an iterable with a class
+Iterator/Iterator.js:156:--- (It#13) ---`)
+Iterator/Iterator.js:16://--- (2) Transforming a Javascript iterable into an array
+Iterator/Iterator.js:18:--- (It#2) ---`)
+Iterator/Iterator.js:191://--- (14) You can redefine the iteration behavior by supplying our own @@iterator
+Iterator/Iterator.js:193:--- (It#14) ---`)
+Iterator/Iterator.js:208:--- (It#15) ---`)
+Iterator/Iterator.js:218:--- (It#16) ---`)
+Iterator/Iterator.js:238:--- (It#17) ---`)
+Iterator/Iterator.js:25://--- (3) iterable iterator
+Iterator/Iterator.js:257:--- (It#18) ---`)
+Iterator/Iterator.js:278:--- (It#19) ---`);
+Iterator/Iterator.js:27:--- (It#3) ---`)
+Iterator/Iterator.js:302://--- (17) see more in AsyncGenerator
+Iterator/Iterator.js:304://--- (18) see more in ArrayLoop
+Iterator/Iterator.js:41://--- (4) For
+Iterator/Iterator.js:4://--- (1) what is iterator
+Iterator/Iterator.js:43:--- (It#4) ---`)
+Iterator/Iterator.js:49://--- (5) array and parameters spreading
+Iterator/Iterator.js:51:--- (It#5) ---`)
+Iterator/Iterator.js:63://--- (6)
+Iterator/Iterator.js:65:--- (It#6) ---`)
+Iterator/Iterator.js:69://--- (7)
+Iterator/Iterator.js:6:--- (It#1) ---`)
+Iterator/Iterator.js:71:--- (It#7) ---`)
+Iterator/Iterator.js:79://--- (8)
+Iterator/Iterator.js:81:--- (It#8) ---`)
+Iterator/Iterator.js:87://--- (9) User-defined iterables
+Iterator/Iterator.js:89:--- (It#9) ---`)
+Iterator/Spread.js:102:--- (Sp#9) ---`)
+Iterator/Spread.js:20:--- (Sp#2) ---`)
+Iterator/Spread.js:28:--- (Sp#3) ---`)
+Iterator/Spread.js:40:--- (Sp#4) ---`)
+Iterator/Spread.js:49:--- (Sp#5) ---`)
+Iterator/Spread.js:65:--- (Sp#6) ---`)
+Iterator/Spread.js:79:--- (Sp#7) ---`)
+Iterator/Spread.js:7:--- (Sp#1) ---`)
+Iterator/Spread.js:89:--- (Sp#8) ---`)
+Meta/MapKeyValuePair.js:110://--- (7) Map can clone
+Meta/MapKeyValuePair.js:112:--- (Kv#7) ---`)
+Meta/MapKeyValuePair.js:121://--- (8) Map can Merge
+Meta/MapKeyValuePair.js:123:--- (Kv#8) ---`)
+Meta/MapKeyValuePair.js:144://--- (9) Map can megre with array
+Meta/MapKeyValuePair.js:146:--- (Kv#9) ---`)
+Meta/MapKeyValuePair.js:160://--- (10) create
+Meta/MapKeyValuePair.js:162:--- (Kv#10) ---`);
+Meta/MapKeyValuePair.js:171://--- (11) add
+Meta/MapKeyValuePair.js:173:--- (Kv#11) ---`);
+Meta/MapKeyValuePair.js:179://--- (12) Being able to use objects as keys is an important Map feature.
+Meta/MapKeyValuePair.js:181:--- (Kv#12) ---`);
+Meta/MapKeyValuePair.js:193:--- (Kv#13) ---`);
+Meta/MapKeyValuePair.js:201://--- (14) Keys
+Meta/MapKeyValuePair.js:203:--- (Kv#14) ---`);
+Meta/MapKeyValuePair.js:25://--- (2) Map Object
+Meta/MapKeyValuePair.js:27:--- (Kv#2) ---`)
+Meta/MapKeyValuePair.js:3://--- (1) Map is KeyValue
+Meta/MapKeyValuePair.js:48://--- (3) NaN
+Meta/MapKeyValuePair.js:50:--- (Kv#3) ---`)
+Meta/MapKeyValuePair.js:59://--- (4) Iteratong with For
+Meta/MapKeyValuePair.js:5:--- (Kv#1) ---`)
+Meta/MapKeyValuePair.js:61:--- (Kv#4) ---`)
+Meta/MapKeyValuePair.js:79://--- (5) iteration wir ForEach
+Meta/MapKeyValuePair.js:81:--- (Kv#5) ---`)
+Meta/MapKeyValuePair.js:87://--- (6) Relation with Array objects
+Meta/MapKeyValuePair.js:89:--- (Kv#6) ---`)
+Meta/ProxyReflect.js:28://--- (2) Before Reflect, you typically use the Function.prototype.apply() method to call a function with a given this value and arguments provided as an array (or an array-like object).
+Meta/ProxyReflect.js:30:--- (Pr#2) ---`);
+Meta/ProxyReflect.js:35://--- (3) With Reflect.apply this becomes less verbose and easier to understand
+Meta/ProxyReflect.js:37:--- (Pr#3) ---`);
+Meta/ProxyReflect.js:7:--- (Pr#1) ---`);
+Meta/Set.js:105://--- (12) Iteration
+Meta/Set.js:107:--- (St#12) ---`);
+Meta/Set.js:11:--- (St#2) ---`);
+Meta/Set.js:120://--- (13) Use to remove duplicate elements from an array
+Meta/Set.js:122:--- (St#13) ---`);
+Meta/Set.js:18://--- (3) set from string
+Meta/Set.js:20:--- (St#3) ---`);
+Meta/Set.js:24:--- (St#4) ---`);
+Meta/Set.js:3://--- (1) a JavaScript Set is a collection of unique values. Each value can only occur once in a Set. A Set can hold any value of any data type.
+Meta/Set.js:34:--- (St#5) ---`);
+Meta/Set.js:40:--- (St#6) ---`);
+Meta/Set.js:44://--- (7) A Set has no keys, entries() returns [value,value] pairs instead of [key,value] pairs.
+Meta/Set.js:46:--- (St#7) ---`);
+Meta/Set.js:52:--- (St#8) ---`);
+Meta/Set.js:56://--- (9) Iterating sets https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
+Meta/Set.js:58:--- (St#9) ---`);
+Meta/Set.js:5:--- (St#1) ---`);
+Meta/Set.js:73://--- (10) Keys, Value, entries
+Meta/Set.js:75:--- (St#10) ---`);
+Meta/Set.js:93://--- (11) Convert Set object to an Array object, with Array.from
+Meta/Set.js:95:--- (St#11) ---`);
+Meta/Week.js:101:--- (Wk#5) ---`);
+Meta/Week.js:23://--- (2) example 2
+Meta/Week.js:25:--- (Wk#2) ---`);
+Meta/Week.js:4://--- (1) example 1
+Meta/Week.js:42://--- (3) example 3
+Meta/Week.js:44:--- (Wk#3) ---`);
+Meta/Week.js:64://--- (4) example 1
+Meta/Week.js:66:--- (Wk#4) ---`);
+Meta/Week.js:6:--- (Wk#1) ---`);
+Meta/Week.js:99://--- (5) example 5
+Node/AsyncHook.js:3:--- (Ah#1) ---`)
+Node/AsyncHook.js:51:--- (Ah#2) ---`)
+Node/CalcScriptTime.js:6:--- (Tm#1) ---`)
+Node/ConsoleRead.js:4:--- (Cr#1) ---`)
+Node/EventEmitter.js:17://--- (2) pass arguments
+Node/EventEmitter.js:19:--- (Ee#2) ---`)
+Node/EventEmitter.js:3://--- (1) emit events
+Node/EventEmitter.js:5:--- (Ee#1) ---`)
+Node/EventLoop.js:24://---  (2) how Node call simple thread JS-program
+Node/EventLoop.js:26:--- (El#2) ---`)
+Node/EventLoop.js:45:--- (El#3) ---`);
+Node/EventLoop.js:6:--- (El#1) ---`)
+Node/GlobalThis.js:13:--- (Th#2) ---`)
+Node/GlobalThis.js:20:--- (Th#3) ---`)
+Node/GlobalThis.js:27:--- (Th#4) ---`)
+Node/GlobalThis.js:4://--- (1) Node.js global objects https://nodejs.org/api/globals.html#global
+Node/GlobalThis.js:6:--- (Th#1) ---`)
+Node/JsonParse.js:2:--- (Fs#1) ---`)
+Node/LocalFS.js:2:--- (Fs#2) ---`)
+Node/LongCalc.js:4:--- (Tm#2) ---`)
+Node/Process.js:4:--- (Tp#1) ---`)
+Node/Server.js:6:--- (Ex#1) ---`)
+Node/SimplePropertyRetriever.js:8:--- (Rw#1) ---`)
+Node/WebWorker.js:12:--- (Ww#1) ---`)
+Node/WorkerThreads.js:4:--- (Wt#1) ---`)
+Oop/Abstract.js:41://--- (2)
+Oop/Abstract.js:4://--- (1) Abstract Method
+Oop/Abstract.js:43:--- (Ab#2) ---`);
+Oop/Abstract.js:6:--- (Ab#1) ---`)
+Oop/Class.js:11:--- (2) ---`)
+Oop/Class.js:30://--- (3) Accessor fields
+Oop/Class.js:3://--- (1) Example of Static constructor and  instanceof / @@hasInstance  see on In.js
+Oop/Class.js:32:--- (Cl#3) ---`)
+Oop/Class.js:4://--- (1) Super.js
+Oop/Class.js:50://--- (4) Bound methods in classes , https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+Oop/Class.js:5://--- (1) Function.js
+Oop/Class.js:52:--- (Cl#4) ---`)
+Oop/Class.js:9://--- (Cl#2) encapsulation private field
+Oop/ExtendHTML.js:3://--- #masket from external using
+Oop/ExtendHTML.js:5:--- (Eh#1) ---`);
+Oop/Extend.js:3:--- (Ex#1) ---`);
+Oop/Extend.js:62://--- (2) A class's constructor can return a different object, which will be used as the new this for the derived class constructor. 
+Oop/Extend.js:66:--- (Ex#2) ---`);
+Oop/Extend.js:96://--- (3) also see Prototype to extend
+Oop/InstanceOf.js:108:--- (Tn#6) ---`)
+Oop/InstanceOf.js:36:--- (Tn#2) ---`)
+Oop/InstanceOf.js:51:--- (Tn#3) ---`)
+Oop/InstanceOf.js:6:--- (Tn#1) ---`)
+Oop/InstanceOf.js:73:--- (Tn#4) ---`)
+Oop/InstanceOf.js:86:--- (Tn#5) ---`)
+Oop/NewTarget.js:32:--- (Nt#2) ---`)
+Oop/NewTarget.js:49:--- (Nt#3) ---`)
+Oop/NewTarget.js:9:--- (Nt#1) ---`)
+Oop/Private.js:13://--- (1) You can use the in operator to check whether an externally defined object possesses a private property.
+Oop/Private.js:15:--- (Pv#1) ---`);
+Oop/Private.js:32://--- (2) #privateField from the ClassWithPrivateField base class is private to ClassWithPrivateField and is not accessible from the derived Subclass
+Oop/Private.js:34:--- (Pv#2) ---`);
+Oop/Private.js:61://--- (3) A class's constructor can return a different object, which will be used as the new this for the derived class constructor. 
+Oop/Private.js:63:--- (Pv#3) ---`);
+Oop/Private.js:86://--- (4) Simulating private constructors
+Oop/Private.js:90:--- (Pv#4) ---`);
+Oop/Prototype.js:122://--- (10) In class terms, this is equivalent to using the extends syntax.
+Oop/Prototype.js:124:--- (Pt#10) ---`)
+Oop/Prototype.js:135://--- (11) With constructor functions
+Oop/Prototype.js:137:--- (Pt#11) ---`)
+Oop/Prototype.js:14://--- (2) Array
+Oop/Prototype.js:156://--- (12) Object.create() creates a new object. The [[Prototype]] of this object is the first argument of the function:
+Oop/Prototype.js:158:--- (Pt#12) ---`)
+Oop/Prototype.js:16:--- (Pt#2) ---`)
+Oop/Prototype.js:180://--- (13) The instanceof operator tests to see if the prototype property of a constructor appears anywhere in the prototype chain of an object
+Oop/Prototype.js:182:--- (Pt#3) ---`)
+Oop/Prototype.js:24://--- (3) Function
+Oop/Prototype.js:26:--- (Pt#3) ---`)
+Oop/Prototype.js:36://--- (4) Constructor
+Oop/Prototype.js:38:--- (Pt#4) ---`)
+Oop/Prototype.js:4://--- (1) Objects 
+Oop/Prototype.js:45://--- (5) Access to prototype getPrototypeOf/setPrototypeOf, __proto__ keyword
+Oop/Prototype.js:47:--- (Pt#5) ---`)
+Oop/Prototype.js:57://--- (6) set prototype using Object.create
+Oop/Prototype.js:59:--- (Pt#6) ---`)
+Oop/Prototype.js:69://--- (7) Using a prototype constructor with Object.assign
+Oop/Prototype.js:6:--- (Pt#1) ---`)
+Oop/Prototype.js:71:--- (Pt#7) ---`)
+Oop/Prototype.js:81://--- (8) Own property
+Oop/Prototype.js:83:--- (Pt#8) ---`)
+Oop/Prototype.js:92://--- (9) To build longer prototype chains, we can set the [[Prototype]] of Constructor.prototype via the Object.setPrototypeOf() function.
+Oop/Prototype.js:94:--- (Pt#9) ---`)
+Oop/Super.js:2://--- (1) super (MyBase in VB)
+Oop/Super.js:25://--- (2) Setting super.prop sets the property on this instead
+Oop/Super.js:27:--- (Sp#2) ---`)
+Oop/Super.js:41://--- (3)  non-writable property
+Oop/Super.js:44:--- (Sp#3) ---`)
+Oop/Super.js:5:--- (Sp#1) ---`)
+Oop/Super.js:80://--- (4) ReferenceError to super constructor
+Oop/Super.js:82:--- (Sp#4) ---`)
+Oop/tracePrototypeChainOf.js:5:--- (Pc#1) ---`)
+Puppeteer/Start.js:4: --- (Pp#1) ---`)
+SimpleDataTypes/DataTypes.js:15://--- (2) conversion of week types
+SimpleDataTypes/DataTypes.js:17: --- (Dt#2) ---`);
+SimpleDataTypes/DataTypes.js:22://--- (3) NULL
+SimpleDataTypes/DataTypes.js:24: --- (Dt#3) ---`);
+SimpleDataTypes/DataTypes.js:37://--- (4) See more in TypeOf.js 
+SimpleDataTypes/DataTypes.js:39: --- (Dt#4) ---`);
+SimpleDataTypes/DataTypes.js:4://--- (1) Variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned (and re-assigned) values of all types:
+SimpleDataTypes/DataTypes.js:43://--- (5) Hexadecimal escape sequences
+SimpleDataTypes/DataTypes.js:45: --- (Dt#5) ---`);
+SimpleDataTypes/DataTypes.js:49://--- (6) Unicode escape sequences
+SimpleDataTypes/DataTypes.js:51: --- (Dt#6) ---`);
+SimpleDataTypes/DataTypes.js:56://--- (7) See more in TypeOf.js , TemplateString
+SimpleDataTypes/DataTypes.js:6: --- (Dt#1) ---`);
+SimpleDataTypes/Date.js:14://--- (2) now and New Date return milliseconds 
+SimpleDataTypes/Date.js:16:--- (De#2) ---`);
+SimpleDataTypes/Date.js:22:// --- (3) Get formatting parts of date (local and UTC), the same methods to Set
+SimpleDataTypes/Date.js:25:--- (De#3) ---`);
+SimpleDataTypes/Date.js:36://--- (4) Date.parse string
+SimpleDataTypes/Date.js:38:--- (De#4) ---`);
+SimpleDataTypes/Date.js:46://--- (5) Date time get formatting string result
+SimpleDataTypes/Date.js:49:--- (De#5) ---`);
+SimpleDataTypes/Date.js:5://--- (1) Date object is slightly smaller than the maximum safe integer (Number.MAX_SAFE_INTEGER, which is 9,007,199,254,740,991). A Date object can represent a maximum of ±8,640,000,000,000,000 milliseconds
+SimpleDataTypes/Date.js:63://--- (6) measure interval
+SimpleDataTypes/Date.js:65:--- (De#6) ---`);
+SimpleDataTypes/Date.js:8:--- (De#1) ---`);
+SimpleDataTypes/Numbers.js:106:--- (Nm#11) ---`);
+SimpleDataTypes/Numbers.js:112://--- (12) Note the difference between (x==y) and (x===y).
+SimpleDataTypes/Numbers.js:114:--- (Nm#12) ---`);
+SimpleDataTypes/Numbers.js:118://--- (13) Comparing two JavaScript objects always returns false.
+SimpleDataTypes/Numbers.js:12://--- (2) limits
+SimpleDataTypes/Numbers.js:125://--- (14) toFixed
+SimpleDataTypes/Numbers.js:127:--- (Nm#14) ---`);
+SimpleDataTypes/Numbers.js:135://--- (15) Number ParseInt  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt
+SimpleDataTypes/Numbers.js:137:--- (Nm#15) ---`);
+SimpleDataTypes/Numbers.js:14:--- (Nm#2) ---`);
+SimpleDataTypes/Numbers.js:150://--- (16) Number ParseInt  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt
+SimpleDataTypes/Numbers.js:152:--- (Nm#16) ---`);
+SimpleDataTypes/Numbers.js:25://--- (3) JavaScript BigInt is a new datatype (ES2020) that can be used to store integer values that are too big to be represented by a normal JavaScript Number.
+SimpleDataTypes/Numbers.js:27:--- (Nm#3) ---`);
+SimpleDataTypes/Numbers.js:3://--- (1) JavaScript Numbers are Always 64-bit Floating Point
+SimpleDataTypes/Numbers.js:32://--- (4) The JavaScript interpreter works from left to right. 
+SimpleDataTypes/Numbers.js:35:--- (Nm#4) ---`);
+SimpleDataTypes/Numbers.js:48://--- (5) NaN - Not a Number
+SimpleDataTypes/Numbers.js:50:--- (Nm#5) ---`);
+SimpleDataTypes/Numbers.js:55://--- (6) typeof NaN returns number:
+SimpleDataTypes/Numbers.js:57:--- (Nm#6) ---`);
+SimpleDataTypes/Numbers.js:5:--- (Nm#1) ---`);
+SimpleDataTypes/Numbers.js:61://--- (7) operation with NaM
+SimpleDataTypes/Numbers.js:63:--- (Nm#7) ---`);
+SimpleDataTypes/Numbers.js:74:--- (Nm#8) ---`);
+SimpleDataTypes/Numbers.js:85://--- (9) hexadecimal preceded by 0x.
+SimpleDataTypes/Numbers.js:87:--- (Nm#9) ---`);
+SimpleDataTypes/Numbers.js:91://--- (10) toString() method to output numbers from base 2 to base 36.
+SimpleDataTypes/Numbers.js:93:--- (Nm#10) ---`);
+SimpleDataTypes/String.js:16:--- (Sr#2) ---`);
+SimpleDataTypes/String.js:28:--- (Sr#3) ---`);
+SimpleDataTypes/String.js:37:--- (Sr#4) ---`);
+SimpleDataTypes/String.js:55:--- (Sr#5) ---`);
+SimpleDataTypes/String.js:5:--- (Sr#1) ---`);
+SimpleDataTypes/TemplateString.js:10://--- (2) Use backtick to create multiline string
+SimpleDataTypes/TemplateString.js:112://--- (8) For any particular tagged template literal expression, the tag function will always be called with the exact same literal array, no matter how many times the literal is evaluated.
+SimpleDataTypes/TemplateString.js:114:--- (Ts#8) ---`)
+SimpleDataTypes/TemplateString.js:12:--- (Ts#2) ---`)
+SimpleDataTypes/TemplateString.js:133:--- (Ts#9) ---`)
+SimpleDataTypes/TemplateString.js:143://--- (10)
+SimpleDataTypes/TemplateString.js:145:--- (Ts#10) ---`)
+SimpleDataTypes/TemplateString.js:153://--- (11) passes literal array to String.raw
+SimpleDataTypes/TemplateString.js:155:--- (Ts#11) ---`)
+SimpleDataTypes/TemplateString.js:163://--- (12) format this literal's content as HTML
+SimpleDataTypes/TemplateString.js:165:--- (Ts#12) ---`)
+SimpleDataTypes/TemplateString.js:179://--- (13) Tagged templates and escape sequences
+SimpleDataTypes/TemplateString.js:181:--- (Ts#13) ---`)
+SimpleDataTypes/TemplateString.js:18://--- (3) String interpolation
+SimpleDataTypes/TemplateString.js:20:--- (Ts#3) ---`)
+SimpleDataTypes/TemplateString.js:29://--- (4) Nesting templates
+SimpleDataTypes/TemplateString.js:3://--- (1) escape a backtick and dollar
+SimpleDataTypes/TemplateString.js:31:--- (Ts#4) ---`)
+SimpleDataTypes/TemplateString.js:43://--- (5) Tagged templates
+SimpleDataTypes/TemplateString.js:45:--- (Ts#5) ---`)
+SimpleDataTypes/TemplateString.js:5:--- (Ts#1) ---`)
+SimpleDataTypes/TemplateString.js:66://--- (6) The tag does not have to be a plain identifier. 
+SimpleDataTypes/TemplateString.js:68:--- (Ts#6) ---`)
+SimpleDataTypes/TemplateString.js:82://--- (7)  Tag functions don't even need to return a string
+SimpleDataTypes/TemplateString.js:84:--- (Ts#7) ---`)
+SimpleDataTypes/TypeOf.js:16://--- (2) bigint
+SimpleDataTypes/TypeOf.js:18:--- (Tf#2) ---`);
+SimpleDataTypes/TypeOf.js:22://--- (3) Strings
+SimpleDataTypes/TypeOf.js:24:--- (Tf#3) ---`);
+SimpleDataTypes/TypeOf.js:3://--- (1) Numbers
+SimpleDataTypes/TypeOf.js:33://--- (4) Booleans
+SimpleDataTypes/TypeOf.js:35:--- (Tf#4) ---`);
+SimpleDataTypes/TypeOf.js:42://--- (5) Symbols
+SimpleDataTypes/TypeOf.js:44:--- (Tf#5) ---`);
+SimpleDataTypes/TypeOf.js:50://--- (6) Undefined
+SimpleDataTypes/TypeOf.js:52:--- (Tf#6) ---`);
+SimpleDataTypes/TypeOf.js:58://--- (7) Objects
+SimpleDataTypes/TypeOf.js:5: --- (Tf#1) ---`);
+SimpleDataTypes/TypeOf.js:60:--- (Tf#7) ---`);
+SimpleDataTypes/TypeOf.js:76://--- (8) Functions
+SimpleDataTypes/TypeOf.js:78:--- (Tf#8) ---`);
+SimpleDataTypes/Void.js:11:--- (Vd#2) ---`);
+SimpleDataTypes/Void.js:16:--- (Vd#3) ---`);
+SimpleDataTypes/Void.js:23:--- (Vd#4) ---`);
+SimpleDataTypes/Void.js:5:--- (Vd#1) ---`);
+Syntax/Comma.js:11:--- (Co#2) ---`);
+Syntax/Comma.js:17://---  printing the values of the diagonal elements in the array:
+Syntax/Comma.js:19:--- (Co#3) ---`);
+Syntax/Comma.js:31:--- (Co#4) ---`);
+Syntax/Comma.js:40:--- (Co#5) ---`);
+Syntax/Comma.js:48:--- (Co#6) ---`);
+Syntax/Comma.js:4:--- (Co#1) ---`);
+Syntax/Comma.js:63:--- (Co#7) ---`);
+Syntax/Expression.js:114:--- (Ep#8) ---`);
+Syntax/Expression.js:12:--- (Ep#2) ---`);
+Syntax/Expression.js:34:--- (Ep#3) ---`);
+Syntax/Expression.js:43:--- (Ep#4) ---`);
+Syntax/Expression.js:57:--- (Ep#5) ---`);
+Syntax/Expression.js:6:--- (Ep#1) ---`);
+Syntax/Expression.js:75:--- (Ep#6) ---`);
+Syntax/Expression.js:97:--- (Ep#7) ---`);
+Syntax/Group.js:15:--- (Gr#2) ---`);
+Syntax/Group.js:23:--- (Gr#2) ---`);
+Syntax/Group.js:29:--- (Gr#3) ---`);
+Syntax/Group.js:40:--- (Gr#4) ---`);
+Syntax/Group.js:66:--- (Gr#5) ---`);
+Syntax/Group.js:8:--- (Gr#1) ---`);
+Syntax/Semicolon.js:17: --- (Sl#1) ---`);
+Syntax/Semicolon.js:31: --- (Sl#2) ---`);
+ThisContext/Closure.js:112://--- (7) The shared lexical environment is created in the body of an anonymous function, 
+ThisContext/Closure.js:114:--- (Cs#7) ---`)
+ThisContext/Closure.js:151://--- (8) Every closure has three scopes:
+ThisContext/Closure.js:153:--- (Cs#8) ---`)
+ThisContext/Closure.js:177:--- (Cs#9) ---`)
+ThisContext/Closure.js:18:--- (Cs#2) ---`)
+ThisContext/Closure.js:198://--- (10) ---
+ThisContext/Closure.js:200:--- (Cs#10) ---`)
+ThisContext/Closure.js:217://--- (11) ---
+ThisContext/Closure.js:219:--- (Cs#11) ---`)
+ThisContext/Closure.js:29:--- (Cs#3) ---`)
+ThisContext/Closure.js:43://--- (4) Closure
+ThisContext/Closure.js:45:--- (Cs#4) ---`)
+ThisContext/Closure.js:4:--- (Cs#1) ---`)
+ThisContext/Closure.js:58://--- (5) makeAdder is a function factory, the function factory creates two new functions—one that adds five to its argument, and one that adds 10.
+ThisContext/Closure.js:60:--- (Cs#5) ---`)
+ThisContext/Closure.js:79:--- (Cs#6) ---`)
+ThisContext/Scope.js:31://--- (2) var declarations are globally scoped or function/locally scoped.
+ThisContext/Scope.js:33:--- (Se#2) ---`)
+ThisContext/Scope.js:4://--- (1) what is scope
+ThisContext/Scope.js:44://--- (3) let is block scoped, Unlike var which is initialized as undefined, the let keyword is not initialized
+ThisContext/Scope.js:46:--- (Se#3) ---`)
+ThisContext/Scope.js:60://--- (4) let can be updated but not re-declared.
+ThisContext/Scope.js:62:--- (Se#4) ---`)
+ThisContext/Scope.js:6:--- (Se#1) ---`)
+ThisContext/Scope.js:70: //--- (5) const declarations are block scoped, const cannot be updated or re-declared
+ThisContext/Scope.js:72:--- (Se#5) ---`)
+ThisContext/This.js:110:--- (Ti#9) ---`);
+ThisContext/This.js:16:--- (Ti#1) ---`)
+ThisContext/This.js:21://--- (2) this in strict mode (compare result with StrictModeOff)
+ThisContext/This.js:23:--- (Ti#2) ---`)
+ThisContext/This.js:36://--- (3) this will be a primitive value as well — but only if the function is in strict mode.
+ThisContext/This.js:38:--- (Ti#3) ---`)
+ThisContext/This.js:50://--- (4) Callbacks are typically called with a this value of undefined (calling it directly without attaching it to any object), which means if the function is non–strict
+ThisContext/This.js:52:--- (Ti#4) ---`)
+ThisContext/This.js:62://--- (5) Callbacks with parameters
+ThisContext/This.js:64:--- (Ti#5) ---`);
+ThisContext/This.js:71:--- (Ti#6) ---`);
+ThisContext/This.js:78://--- (7) In arrow function this is bound to what it was when the function was created
+ThisContext/This.js:80:--- (Ti#7) ---`);
+ThisContext/This.js:94:--- (Ti#8) ---`);

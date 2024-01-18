@@ -1,0 +1,4 @@
+https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html
+https://www.typescriptlang.org/play?q=68#example/conditional-types
+https://www.typescriptlang.org/cheatsheets
+https://www.typescriptlang.org/

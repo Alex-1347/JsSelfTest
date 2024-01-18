@@ -1,0 +1,3 @@
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs
+https://mdn.github.io/dom-examples/fullscreen-api/
+https://mdn.github.io/dom-examples/canvas/chroma-keying/

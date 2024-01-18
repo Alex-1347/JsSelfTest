@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fingerprint</title>
+    <script>
+        // Initialize the agent at application startup.
+        // If you're using an ad blocker or Brave/Firefox, this import will not work.
+        // Please use the NPM package instead: https://t.ly/ORyXk
+        const fpPromise = import('https://openfpcdn.io/fingerprintjs/v4')
+          .then(FingerprintJS => FingerprintJS.load())
+      
+        // Get the visitor identifier when you need it.
+        fpPromise
+          .then(fp => fp.get())
+          .then(result => {
+            // This is the visitor identifier:
+            const visitorId = result.visitorId
+            console.log(visitorId)
+            const div  = document.getElementById("BrowserID")
+            div.innerText = visitorId
+          })
+      </script>
+
+
+</head>
+<body>
+    <div>BrowserID from FingerprintJS=<span id="BrowserID"></span></div>
+    <div>More on <a href="https://stackoverflow.com/questions/216542/how-do-i-uniquely-identify-computers-visiting-my-web-site">https://stackoverflow.com/questions/216542/how-do-i-uniquely-identify-computers-visiting-my-web-site</a> and 
+    <a href="https://browserleaks.com/canvas">https://browserleaks.com/canvas</a></div>
+    <br>
+
+    <div style="display: flex;">
+       <canvas id="canvas" width="50" height="50" style="background-color: gray;"></canvas>
+       <span id="CanvasID" style="overflow-wrap: anywhere;padding:20px"></span>
+    </div>
+    <br>
+    <div>open about:config and change privacy.resistFingerprinting</div>
+
+ </body>
+ <script>
+    const canvas = document.getElementById("canvas");
+    const dataURL = canvas.toDataURL();
+    console.log(dataURL);
+    const Canvas  = document.getElementById("CanvasID")
+    Canvas.innerText=dataURL
+  </script>
+  <script>
+    const items = { ...localStorage };
+    console.log(items)
+  </script>
+</html>
+
+
